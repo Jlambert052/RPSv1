@@ -4,6 +4,21 @@ namespace RPSgame;
 
         Random randomNum = new();
 
+        private bool PlayMore() {
+            System.Console.WriteLine("Would you like to play again? Y for yes, N for no:");
+            string response = Console.ReadLine().ToUpper();
+            if(response == "Y") {  
+                return true;
+            } if(response == "N") {
+                return false;
+            } if(response != "Y" || response != "N") {
+                System.Console.WriteLine("Invalid response; try again.");
+                PlayMore();
+            }
+                return true;
+            
+
+        }
         public int RpsPlay() {
             string inputPlayer;
             string Computer;
@@ -13,7 +28,6 @@ namespace RPSgame;
             int wins = 0;
             int losses = 0;
             int ties = 0;
-            bool replay = false;
             while(playAgain){
 
             randomMove = randomNum.Next(1, 4);
@@ -76,10 +90,16 @@ namespace RPSgame;
             } else if(wins == losses) {
                 System.Console.WriteLine("Close match; this next round could decide it all!");
             }
-            //find way to loop play again.
+            playAgain = PlayMore();
 
             }
             System.Console.WriteLine("Thank you for playing!");
+            if(wins > losses) 
+                System.Console.WriteLine("Congratulations, you have saved the earth. Here is a gold star.");
+            if(wins < losses)
+                System.Console.WriteLine("The earth is doomed; the robot brings out the planet sized PAPER and beats our home rock.");
+            if(ties > 10)
+                System.Console.WriteLine("Wow, that's a lot of ties");
             return wins;
         }
     }
