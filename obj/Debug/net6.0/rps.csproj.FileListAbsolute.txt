@@ -1,0 +1,15 @@
+C:\repos\C#Projects\rps\bin\Debug\net6.0\rps.exe
+C:\repos\C#Projects\rps\bin\Debug\net6.0\rps.deps.json
+C:\repos\C#Projects\rps\bin\Debug\net6.0\rps.runtimeconfig.json
+C:\repos\C#Projects\rps\bin\Debug\net6.0\rps.dll
+C:\repos\C#Projects\rps\bin\Debug\net6.0\rps.pdb
+C:\repos\C#Projects\rps\obj\Debug\net6.0\rps.csproj.AssemblyReference.cache
+C:\repos\C#Projects\rps\obj\Debug\net6.0\rps.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\C#Projects\rps\obj\Debug\net6.0\rps.AssemblyInfoInputs.cache
+C:\repos\C#Projects\rps\obj\Debug\net6.0\rps.AssemblyInfo.cs
+C:\repos\C#Projects\rps\obj\Debug\net6.0\rps.csproj.CoreCompileInputs.cache
+C:\repos\C#Projects\rps\obj\Debug\net6.0\rps.dll
+C:\repos\C#Projects\rps\obj\Debug\net6.0\refint\rps.dll
+C:\repos\C#Projects\rps\obj\Debug\net6.0\rps.pdb
+C:\repos\C#Projects\rps\obj\Debug\net6.0\rps.genruntimeconfig.cache
+C:\repos\C#Projects\rps\obj\Debug\net6.0\ref\rps.dll
